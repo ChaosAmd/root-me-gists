@@ -10,3 +10,4 @@ const decode = (encodeStr) => {
 }
 
 console.log(decode(stringToConvert));
+// alert(decode(stringToConvert));
