@@ -1,5 +1,6 @@
+/** using ES6 **/
 // The constant of the string
-const stringToConvert = '%6e%6f%70%71%20%2F';
+const stringToConvert = '%6e%6f%70%71%20%2f';
 
 // The arrowed function to decode
 const decode = (encodeStr) => {
@@ -11,3 +12,8 @@ const decode = (encodeStr) => {
 
 console.log(decode(stringToConvert));
 // alert(decode(stringToConvert));
+
+/**
+2)using dom:
+**/
+decodeURI(stringToConvert);
